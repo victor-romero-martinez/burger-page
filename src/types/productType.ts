@@ -8,3 +8,11 @@ export type TProduct = {
 };
 
 export type TProducts = TProduct[];
+
+export type TLocation = {
+  name: string;
+  lat: number;
+  lng: number;
+};
+
+export type TLocations = TLocation[];

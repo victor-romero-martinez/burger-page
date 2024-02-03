@@ -1,30 +1,38 @@
 'use client'
 import { Map, Marker, ZoomControl, Point } from "pigeon-maps"
+import Locations from "../locations/Locations"
+import { usePositionStore } from "@/store/positionStore"
 
-const position: Point = [-25.31124, -57.58924]
-const markers: Point[] = [
-  [-25.31517, -57.57760],
-  [-25.30668, -57.55289],
-  [-25.34132, -57.49854],
+import './styles.css'
+
+const markers = [
+  { name: 'Av. Doctor Eusebio Ayala', lat: -25.31517, lng: -57.57760 },
+  { name: 'Av. Madame Lynch', lat: -25.30668, lng: -57.55289 },
+  { name: 'Av. MaricalEstigarribia', lat: -25.34132, lng: -57.49854 },
 ]
 
 export function MyMap() {
+  const { position } = usePositionStore()
+
   return (
-    <Map
-      height={300}
-      defaultCenter={position}
-      defaultZoom={11}
-      metaWheelZoom
-    >
-      <ZoomControl />
-      {markers.map((m, i) => (
-        <Marker
-          key={i}
-          width={50}
-          anchor={m}
-          color="#aa0502"
-        />
-      ))}
-    </Map>
+    <div className="map__container">
+      <Map
+        height={300}
+        center={[position.lat, position.lng]}
+        defaultZoom={11}
+        metaWheelZoom
+      >
+        <ZoomControl />
+        {markers.map((m, i) => (
+          <Marker
+            key={i}
+            width={50}
+            anchor={[m.lat, m.lng]}
+            color="#aa0502"
+          />
+        ))}
+      </Map>
+      <Locations markers={markers} />
+    </div>
   )
 }
