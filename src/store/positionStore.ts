@@ -17,7 +17,7 @@ export const usePositionStore = create<position & positionAction>()((set) => ({
   },
 
   updatePosition: (newPosition) =>
-    set((state) => ({
-      position: (state.position = newPosition),
+    set(() => ({
+      position: newPosition,
     })),
 }));

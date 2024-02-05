@@ -4,6 +4,7 @@ import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import HeroSection from "@/components/hero-section/HeroSection";
 import Menu from "@/components/menu/Menu";
+import Dialog from "@/components/modal/Dialog";
 
 export default function Home() {
   return (
@@ -17,6 +18,8 @@ export default function Home() {
       <DiscoverCombo />
 
       <Sucursal />
+
+      <Dialog />
 
       <Footer />
     </>

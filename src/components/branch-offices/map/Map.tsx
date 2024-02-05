@@ -2,14 +2,9 @@
 import { Map, Marker, ZoomControl, Point } from "pigeon-maps"
 import Locations from "../locations/Locations"
 import { usePositionStore } from "@/store/positionStore"
+import sucursales from '@/libs/sucursales.json'
 
 import './styles.css'
-
-const markers = [
-  { name: 'Av. Doctor Eusebio Ayala', lat: -25.31517, lng: -57.57760 },
-  { name: 'Av. Madame Lynch', lat: -25.30668, lng: -57.55289 },
-  { name: 'Av. Marical Estigarribia', lat: -25.34132, lng: -57.49854 },
-]
 
 export function MyMap() {
   const { position } = usePositionStore()
@@ -23,7 +18,7 @@ export function MyMap() {
         metaWheelZoom
       >
         <ZoomControl />
-        {markers.map((m, i) => (
+        {sucursales.map((m, i) => (
           <Marker
             key={i}
             width={50}
@@ -32,7 +27,7 @@ export function MyMap() {
           />
         ))}
       </Map>
-      <Locations markers={markers} />
+      <Locations markers={sucursales} />
     </div>
   )
 }

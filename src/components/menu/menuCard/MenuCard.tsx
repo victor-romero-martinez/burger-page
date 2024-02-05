@@ -1,39 +1,37 @@
+'use client'
 import Image from 'next/image'
+import { useMenuStore } from '@/store/useMenuStore'
+import { TProduct } from '@/types/productType'
 import './styles.css'
 
-export default function MenuCard({
-  img,
-  title,
-  details,
-  price,
-  nota
-}: TMenuProps) {
+export default function MenuCard({ props }: { props: TProduct }) {
+  const { handleDialog, addProductModal } = useMenuStore()
+
+  /** add product to display and open modal */
+  function handleClick() {
+    addProductModal(props)
+    handleDialog()
+    return
+  }
+
   return (
-    <article className='cart__product'>
-      <Image src={img} alt={`menú item ${title}`} width={128} height={100} style={{
+    <article className='cart__product' onClick={handleClick}>
+      <Image src={props.img} alt={`menú item ${props.title}`} width={128} height={100} style={{
         objectFit: 'contain'
       }} />
 
-      <h3>{title}</h3>
+      <h3>{props.title}</h3>
 
       <div className='cart__product__details'>
         <>
-          {details.map((d, i) => (
+          {props.details.map((d, i) => (
             <span key={i}>{d}</span>
           ))}
         </>
-        <span className='cart__product__details-price'>{price[0]} <span>{price[1]}</span></span>
-        {nota && (<span className='cart__product__details-nota'>{nota}</span>)}
+        <span className='cart__product__details-price'>{props.price[0]} <span>{props.price[1]}</span></span>
+        {props.nota && (<span className='cart__product__details-nota'>{props.nota}</span>)}
       </div>
 
     </article>
   )
 };
-
-type TMenuProps = {
-  img: string,
-  title: string,
-  details: string[],
-  price: string[]
-  nota?: string
-}

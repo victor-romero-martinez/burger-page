@@ -1,5 +1,5 @@
 import MenuCard from './menuCard/MenuCard'
-import { MENUDATA } from '@/libs/data'
+import { MENUDATA } from '@/libs/data.'
 import WeekendOffer from './offer/WeekendOffer'
 import { descuentProduct, normalProduct } from '@/libs/productController'
 
@@ -9,6 +9,7 @@ const products = normalProduct(MENUDATA)
 const promo = descuentProduct(MENUDATA)
 
 export default function Menu() {
+
   return (
     <section className='w-full' id='menu'>
       <div className='menu-title w-full'>
@@ -19,12 +20,12 @@ export default function Menu() {
 
         {products.map(m => (
           <div key={m.id}>
-            <MenuCard  {...m} />
+            <MenuCard props={m} />
           </div>
         ))}
 
         <div>
-          <WeekendOffer {...promo[0]} />
+          <WeekendOffer props={promo[0]} />
         </div>
 
       </div>

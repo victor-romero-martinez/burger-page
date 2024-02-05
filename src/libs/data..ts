@@ -2,16 +2,20 @@
 export const MENUDATA = [
   {
     id: 4,
+    link_to_buy: "www.google.com",
     discount: "63 MIL",
     img: "/assets/item4.webp",
+    qr: "/assets/qr.webp",
     title: "CHICKEN SHARE",
     details: ["6 piezas", "en combo"],
     price: ["93 MIL", "GS."],
   },
   {
     id: 5,
+    link_to_buy: "www.google.com",
     discount: null,
     img: "/assets/item5.webp",
+    qr: "/assets/qr.webp",
     title: "MEGA RECARGADOS",
     details: ["8 piezas", "2 sand. Cheddar", "2 papas medianas"],
     price: ["147 MIL", "GS."],
@@ -19,8 +23,10 @@ export const MENUDATA = [
   },
   {
     id: 1,
+    link_to_buy: "www.google.com",
     discount: null,
     img: "/assets/item1.webp",
+    qr: "/assets/qr.webp",
     title: "BUCKETS",
     details: ["8 PIEZAS"],
     price: ["85 MIL", "GS."],
@@ -28,8 +34,10 @@ export const MENUDATA = [
   },
   {
     id: 6,
+    link_to_buy: "www.google.com",
     discount: null,
     img: "/assets/item6.webp",
+    qr: "/assets/qr.webp",
     title: "MEGA FAMILIAR",
     details: ["8 piezas", "4 alitas", "5 strips"],
     price: ["147 MIL", "GS."],
@@ -37,8 +45,10 @@ export const MENUDATA = [
   },
   {
     id: 7,
+    link_to_buy: "www.google.com",
     discount: null,
     img: "/assets/item7.webp",
+    qr: "/assets/qr.webp",
     title: "MEGA XL",
     details: ["8 piezas", "8 strips", "8 alitas", "2 papas medianas"],
     price: ["147 MIL", "GS."],
@@ -46,8 +56,10 @@ export const MENUDATA = [
   },
   {
     id: 2,
+    link_to_buy: "www.google.com",
     discount: null,
     img: "/assets/item2.webp",
+    qr: "/assets/qr.webp",
     title: "BIG BOX FULL",
     details: [
       "1 pieza",
@@ -60,8 +72,10 @@ export const MENUDATA = [
   },
   {
     id: 3,
+    link_to_buy: "www.google.com",
     discount: null,
     img: "/assets/item3.webp",
+    qr: "/assets/qr.webp",
     title: "BIG BOX KENTUCKY",
     details: [
       "1 kentucky chicken",
