@@ -8,7 +8,7 @@ import './styles.css'
 const markers = [
   { name: 'Av. Doctor Eusebio Ayala', lat: -25.31517, lng: -57.57760 },
   { name: 'Av. Madame Lynch', lat: -25.30668, lng: -57.55289 },
-  { name: 'Av. MaricalEstigarribia', lat: -25.34132, lng: -57.49854 },
+  { name: 'Av. Marical Estigarribia', lat: -25.34132, lng: -57.49854 },
 ]
 
 export function MyMap() {

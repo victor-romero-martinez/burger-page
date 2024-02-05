@@ -1,4 +1,5 @@
 'use client'
+import Btn from "@/components/ui/btn/Btn";
 import { MapPinIcon } from "@/icons/Icons";
 import { usePositionStore } from "@/store/positionStore";
 import { TLocations, TLocation } from "@/types/productType";
@@ -14,15 +15,14 @@ export default function Locations({ markers }: { markers: TLocations }) {
     <ul>
       {markers.map((location, i) => (
         <li key={i}>
-          <button
-            type="button"
-            onClick={() => handlePosition(location)}
-          >
-            <MapPinIcon width='16' height='16' />
+
+          <Btn click={() => handlePosition(location)}>
+            <MapPinIcon />
             <span>
               {location.name}
             </span>
-          </button>
+          </Btn>
+
         </li>
       ))}
     </ul>

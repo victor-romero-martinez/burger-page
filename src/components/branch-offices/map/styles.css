@@ -6,16 +6,5 @@
     flex-wrap: wrap;
     gap: 1rem;
     padding-block: 1rem;
-
-    button {
-      display: inline-flex;
-      align-items: center;
-      gap: 2px;
-      background-color: var(--bg-secondary);
-      color: var(--color-primary);
-      padding: .5rem 1rem;
-      border-radius: .3vmax;
-      cursor: pointer;
-    }
   }
 }
