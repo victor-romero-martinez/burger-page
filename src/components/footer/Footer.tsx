@@ -23,11 +23,11 @@ export default function Footer() {
       <div className="footer__info-container">
         <div className="footer__info container p-inline">
           <div>
-            <h4>KFC</h4>
+            <h3>KFC</h3>
             <p>Página no oficial, hecho con fines didácticos <time dateTime='2024-02-04'>04 de Febrero del 2024</time></p>
           </div>
           <div>
-            <h4>Quick Links</h4>
+            <h3>Quick Links</h3>
             <ul>
               <li>Términos y condiciones</li>
               <li>Trabajé con nosotros</li>
@@ -35,7 +35,7 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h4>Site Map</h4>
+            <h3>Site Map</h3>
             <ul>
               <li><a href="#home">Home</a></li>
               <li><a href="#menu">Menú</a></li>
