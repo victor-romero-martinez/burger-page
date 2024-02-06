@@ -10,7 +10,7 @@ export default function Dialog() {
   const { isOpen, handleDialog, productModal } = useMenuStore()
 
   return (
-    <dialog open={isOpen}>
+    <dialog open={isOpen} tabIndex={-1}>
       <section className="scale-up-center">
 
         {
