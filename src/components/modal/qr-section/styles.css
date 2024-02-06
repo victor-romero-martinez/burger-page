@@ -8,8 +8,14 @@
 .qr__section p {
   margin-top: 1rem;
 
-  a {
-    color: #4288cd;
-    text-decoration: underline;
+  span:last-child {
+    display: flex;
+    flex-wrap: wrap;
+
+    a {
+      color: #4288cd;
+      text-decoration: underline;
+      display: block;
+    }
   }
 }

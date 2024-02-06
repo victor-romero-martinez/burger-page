@@ -1,7 +1,7 @@
 [
   {
     "id": 4,
-    "link_to_buy": "www.google.com",
+    "link_to_buy": "https://www.google.com",
     "discount": "63 MIL",
     "img": "/assets/item4.webp",
     "qr": "/assets/qr.webp",
@@ -17,7 +17,7 @@
   },
   {
     "id": 5,
-    "link_to_buy": "www.google.com",
+    "link_to_buy": "https://www.google.com",
     "discount": null,
     "img": "/assets/item5.webp",
     "qr": "/assets/qr.webp",
@@ -35,7 +35,7 @@
   },
   {
     "id": 1,
-    "link_to_buy": "www.google.com",
+    "link_to_buy": "https://www.google.com",
     "discount": null,
     "img": "/assets/item1.webp",
     "qr": "/assets/qr.webp",
@@ -51,7 +51,7 @@
   },
   {
     "id": 6,
-    "link_to_buy": "www.google.com",
+    "link_to_buy": "https://www.google.com",
     "discount": null,
     "img": "/assets/item6.webp",
     "qr": "/assets/qr.webp",
@@ -69,7 +69,7 @@
   },
   {
     "id": 7,
-    "link_to_buy": "www.google.com",
+    "link_to_buy": "https://www.google.com",
     "discount": null,
     "img": "/assets/item7.webp",
     "qr": "/assets/qr.webp",
@@ -88,7 +88,7 @@
   },
   {
     "id": 2,
-    "link_to_buy": "www.google.com",
+    "link_to_buy": "https://www.google.com",
     "discount": null,
     "img": "/assets/item2.webp",
     "qr": "/assets/qr.webp",
@@ -107,7 +107,7 @@
   },
   {
     "id": 3,
-    "link_to_buy": "www.google.com",
+    "link_to_buy": "https://www.google.com",
     "discount": null,
     "img": "/assets/item3.webp",
     "qr": "/assets/qr.webp",

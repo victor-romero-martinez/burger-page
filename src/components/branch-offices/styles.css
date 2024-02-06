@@ -1,4 +1,6 @@
 .sucursal {
+  margin-block: 2rem;
+
   h2 {
     text-align: center;
     font-size: var(--font-xxlg);

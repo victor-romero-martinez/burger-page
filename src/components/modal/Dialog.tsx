@@ -11,7 +11,7 @@ export default function Dialog() {
 
   return (
     <dialog open={isOpen}>
-      <section>
+      <section className="scale-up-center">
 
         {
           productModal && (
