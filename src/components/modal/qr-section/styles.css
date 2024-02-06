@@ -11,6 +11,7 @@
   span:last-child {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
     a {
       color: #4288cd;
