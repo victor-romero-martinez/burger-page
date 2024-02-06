@@ -1,12 +1,12 @@
 import MenuCard from './menuCard/MenuCard'
-import { MENUDATA } from '@/libs/data.'
 import WeekendOffer from './offer/WeekendOffer'
-import { descuentProduct, normalProduct } from '@/libs/productController'
+import { discountProduct, normalProduct } from '@/libs/productController'
+import data from '@/libs/data.local.json'
 
 import './styles.css'
 
-const products = normalProduct(MENUDATA)
-const promo = descuentProduct(MENUDATA)
+const products = normalProduct(data)
+const promo = discountProduct(data)
 
 export default function Menu() {
 

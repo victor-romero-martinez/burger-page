@@ -1,7 +1,7 @@
 import type { TProducts } from "@/types/productType";
 
 /** Con descuento */
-export function descuentProduct(arr: TProducts) {
+export function discountProduct(arr: TProducts) {
   return arr.filter((d) => d.discount !== null);
 }
 

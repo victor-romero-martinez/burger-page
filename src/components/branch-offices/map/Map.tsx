@@ -2,7 +2,7 @@
 import { Map, Marker, ZoomControl, Point } from "pigeon-maps"
 import Locations from "../locations/Locations"
 import { usePositionStore } from "@/store/positionStore"
-import sucursales from '@/libs/sucursales.json'
+import sucursales from '@/libs/sucursales.local.json'
 
 import './styles.css'
 
