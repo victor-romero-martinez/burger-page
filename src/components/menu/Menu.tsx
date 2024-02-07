@@ -1,7 +1,7 @@
 import MenuCard from './menuCard/MenuCard'
 import WeekendOffer from './offer/WeekendOffer'
 import { discountProduct, normalProduct } from '@/libs/productController'
-import data from '@/libs/data.local.json'
+import data from '@/libs/data.products.json'
 
 import './styles.css'
 
