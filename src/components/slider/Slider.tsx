@@ -15,6 +15,7 @@ export default function Slider() {
         showFullscreenButton={false}
         showPlayButton={false}
         showNav={false}
+        lazyLoad
         showBullets
         autoPlay
       />
