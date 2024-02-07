@@ -1,3 +1,9 @@
+<p align='center'>
+  <img src='./public/opengraph-image.webp' alt='Website screenshot' width='500'/>
+</p>
+
+Visit demo [kfc-no-oficial](https://kfc-no-oficial-page.vercel.app/)
+
 ## Getting Started
 
 First, run the development server:
@@ -19,5 +25,3 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ---
-
-Visit demo [kfc-no-oficial](https://kfc-no-oficial-page.vercel.app/)

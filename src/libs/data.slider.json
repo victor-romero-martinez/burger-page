@@ -1,17 +1,14 @@
 [
   {
     "original": "/assets/image1.webp",
-    "originalAlt": "imagen promocional 1",
-    "sizes": "(min-width: 640px) 800px, 1920px"
+    "originalAlt": "imagen promocional 1"
   },
   {
     "original": "/assets/image2.webp",
-    "originalAlt": "imagen promocional 2",
-    "sizes": "(min-width: 640px) 800px, 1920px"
+    "originalAlt": "imagen promocional 2"
   },
   {
     "original": "/assets/image.webp",
-    "originalAlt": "imagen promocional 3",
-    "sizes": "(min-width: 640px) 800px, 1920px"
+    "originalAlt": "imagen promocional 3"
   }
 ]
