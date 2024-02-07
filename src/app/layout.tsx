@@ -11,7 +11,7 @@ const rubik = Rubik({
 export const metadata: Metadata = {
   title: "KFC no oficial",
   description: "Marca líder especializada en los productos de pollo con más de 17.000 restaurantes en todo el mundo con sede en Louisville. P",
-  openGraph: { images: [{ url: '/opengraph-image.webp' }] }
+  openGraph: { images: [{ url: 'opengraph-image.webp' }] }
 };
 
 export default function RootLayout({
