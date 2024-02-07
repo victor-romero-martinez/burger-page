@@ -2,16 +2,19 @@
   {
     "original": "/assets/image1.webp",
     "originalAlt": "imagen promocional 1",
-    "sizes": "(min-width: 40em) 80vw, 100vw"
+    "sizes": "(min-width: 640px) 800px, 1920px",
+    "loading": "lazy"
   },
   {
     "original": "/assets/image2.webp",
     "originalAlt": "imagen promocional 2",
-    "sizes": "(min-width: 40em) 80vw, 100vw"
+    "sizes": "(min-width: 640px) 800px, 1920px",
+    "loading": "lazy"
   },
   {
     "original": "/assets/image.webp",
     "originalAlt": "imagen promocional 3",
-    "sizes": "(min-width: 40em) 80vw, 100vw"
+    "sizes": "(min-width: 640px) 800px, 1920px",
+    "loading": "lazy"
   }
 ]

@@ -25,6 +25,7 @@
 
     img {
       display: none;
+      border-radius: .8vmax;
     }
 
     h3 {
@@ -60,7 +61,7 @@
 
   @container (width > 600px) {
     .discover-bg {
-      top: 60px;
+      top: 100px;
       height: 200px;
     }
   }
